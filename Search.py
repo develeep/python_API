@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import os
 
 # 검색 키워드, 검색 기간
-keyword = 'izone'
+keyword = 'Galaxy s20'
 period = 'today 3-m'    # 검색기간 최근 3개월
 
 
@@ -18,9 +18,9 @@ print(trend_df.head())
 # 그래프 출력
 plt.style.use('ggplot')
 plt.figure(figsize=(14,5))
-trend_df['izone'].plot()
+trend_df['Galaxy s20'].plot()
 plt.title('Google Trends over time', size = 15)
-plt.legend(labels=['izone'],loc='upper right')
+plt.legend(labels=['Galaxy s20'],loc='upper right')
 
 # 그래프 파일 저장
 cwd = os.getcwd()
