@@ -4,7 +4,7 @@ import os
 
 # 검색 키워드, 검색 기간
 keyword = 'izone'
-period = 'today 3-m'    # 검색기간 최근 1개월
+period = 'today 3-m'    # 검색기간 최근 3개월
 
 
 # 구글 트렌드 접속
