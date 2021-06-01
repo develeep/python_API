@@ -3,8 +3,8 @@ import matplotlib.pyplot as plt
 import os
 
 # 검색 키워드, 검색 기간
-keyword = 'Galaxy Fold'
-period = 'today 1-m'    # 검색기간 최근 1개월
+keyword = 'izone'
+period = 'today 3-m'    # 검색기간 최근 1개월
 
 
 # 구글 트렌드 접속
@@ -18,9 +18,9 @@ print(trend_df.head())
 # 그래프 출력
 plt.style.use('ggplot')
 plt.figure(figsize=(14,5))
-trend_df['Galaxy Fold'].plot()
+trend_df['izone'].plot()
 plt.title('Google Trends over time', size = 15)
-plt.legend(labels=['Galaxy Fold'],loc='upper right')
+plt.legend(labels=['izone'],loc='upper right')
 
 # 그래프 파일 저장
 cwd = os.getcwd()
